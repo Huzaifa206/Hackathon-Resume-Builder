@@ -43,7 +43,7 @@ form#resumeForm input[type="text"] {
 }
 
 form#resumeForm button {
-    background-color: #007bff;
+    background-color: #aa0000;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -56,7 +56,7 @@ form#resumeForm button {
 }
 
 form#resumeForm button:hover {
-    background-color: #0056b3;
+    background-color: #ff3131;
 }
 
 header, section {

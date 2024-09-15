@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resume Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="resumeForm">
+        <h2>Resume Generator</h2>
+        <label>Name: <input type="text" id="name"></label>
+        <label>Email: <input type="text" id="email"></label>
+        <label>Education: <input type="text" id="educationInput"></label>
+        <label>Skills: <input type="text" id="skillsInput"></label>
+        <label>Experience: <input type="text" id="experienceInput"></label>
+        <button type="button" id="generateResume">Generate Resume</button>
+    </form>
+    
+    <header>
+        <h1>Huzaifa Ahmed Siddiqui</h1>
+        <p>Contact: Huzaifa@gmail.com</p>
+        <img src="profile.jpg" alt="Profile Picture">
+    </header>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p>karachi University, BS in Computer Science</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>TypeScript</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <p>Software Developer at ABC Company</p>
+    </section>
+
+    <button id="toggleSkills">Toggle Skills</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

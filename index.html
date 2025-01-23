@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav1">
+            <h2>Resume Builder</h2>
+        </div>
+        <div class="nav2">
+            <ul>
+                <li><a href="/index.html">Resume Generator</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contactus.html">Contact</a></li>
+            </ul>
+        </div>  
+            
+    </div>
+    <div class="main-container">
+        <div class="form-column">
+            <form id="resumeForm">
+                <h2>Input your details</h2>
+                <label>Name: <input type="text" id="name"></label>
+                <label>Email: <input type="email" id="email"></label>
+                <label>Contact: <input type="number" id="number"></label>
+                <label>Education: <input type="text" id="educationInput"></label>
+                <label>Skills (comma-separated): <input type="text" id="skillsInput"></label>
+                <label>Experience: <input type="text" id="experienceInput"></label>
+                <label>Profile Picture: <input type="file" id="profilePicture" accept="image/*"></label>
+                <button type="button" id="generateResume">Generate Resume</button>
+            </form>
+        </div>
+        <div class="resume-column">
+            <header>
+                <img src="default.png" alt="Profile Picture" id="profileImage">
+                <div>
+                    <h2>Your Name</h2>
+                <p>Email: your.email@example.com</p>
+                <p>Contact: your contact number</p>
+
+                </div>
+                
+            </header>
+            <section id="education">
+                <h2>Education</h2>
+                <p>Your Education Details</p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>No skills added yet</li>
+                </ul>
+            </section>
+            <section id="experience">
+                <h2>Work Experience</h2>
+                <p>Your Work Experience</p>
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
